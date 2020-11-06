@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Plataforma Educativa</title>
+<!-- abajo linea de indexion hacia css -->
+<!-- Linea copiar  -->
+<body>
+   <script src='https://meet.jit.si/external_api.js'></script>
+    <script type="text/javascript">
+        const domain = 'meet.jit.si';
+        const options = {
+            roomName: 'Exampledeee',
+            width: 700,
+            height: 500,
+            parentNode: document.querySelector('#videocam')
+        };
+        const api = new JitsiMeetExternalAPI(domain, options);
+    </script>
+
+ <div id="div_cam">
+        </div>
+</body>
+</html>

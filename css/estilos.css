@@ -1,0 +1,188 @@
+body {
+    background-image: url('../images/binari.jpg');
+    
+}
+
+.jumbotron {
+    /*== El codigo que observamos de abajo antes de white es e codigo de degradacion ==*/
+   background: rgba(76,76,76,1);
+background: -moz-linear-gradient(45deg, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 20%, rgba(44,44,44,1) 36%, rgba(0,0,0,1) 45%, rgba(36,32,36,1) 56%, rgba(43,43,43,1) 63%, rgba(71,71,71,1) 70%, rgba(28,28,28,1) 81%, rgba(28,28,28,1) 93%);
+background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(76,76,76,1)), color-stop(12%, rgba(89,89,89,1)), color-stop(20%, rgba(102,102,102,1)), color-stop(36%, rgba(44,44,44,1)), color-stop(45%, rgba(0,0,0,1)), color-stop(56%, rgba(36,32,36,1)), color-stop(63%, rgba(43,43,43,1)), color-stop(70%, rgba(71,71,71,1)), color-stop(81%, rgba(28,28,28,1)), color-stop(93%, rgba(28,28,28,1)));
+background: -webkit-linear-gradient(45deg, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 20%, rgba(44,44,44,1) 36%, rgba(0,0,0,1) 45%, rgba(36,32,36,1) 56%, rgba(43,43,43,1) 63%, rgba(71,71,71,1) 70%, rgba(28,28,28,1) 81%, rgba(28,28,28,1) 93%);
+background: -o-linear-gradient(45deg, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 20%, rgba(44,44,44,1) 36%, rgba(0,0,0,1) 45%, rgba(36,32,36,1) 56%, rgba(43,43,43,1) 63%, rgba(71,71,71,1) 70%, rgba(28,28,28,1) 81%, rgba(28,28,28,1) 93%);
+background: -ms-linear-gradient(45deg, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 20%, rgba(44,44,44,1) 36%, rgba(0,0,0,1) 45%, rgba(36,32,36,1) 56%, rgba(43,43,43,1) 63%, rgba(71,71,71,1) 70%, rgba(28,28,28,1) 81%, rgba(28,28,28,1) 93%);
+background: linear-gradient(45deg, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 20%, rgba(44,44,44,1) 36%, rgba(0,0,0,1) 45%, rgba(36,32,36,1) 56%, rgba(43,43,43,1) 63%, rgba(71,71,71,1) 70%, rgba(28,28,28,1) 81%, rgba(28,28,28,1) 93%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#1c1c1c', GradientType=1 );
+    /*background-color: #90C3D4;*/
+    color: #bce8f1;
+}
+
+.panel-heading {
+    background: rgba(76,76,76,1);
+background: -moz-linear-gradient(45deg, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 20%, rgba(44,44,44,1) 36%, rgba(0,0,0,1) 45%, rgba(36,32,36,1) 56%, rgba(43,43,43,1) 63%, rgba(71,71,71,1) 70%, rgba(28,28,28,1) 81%, rgba(28,28,28,1) 93%);
+background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(76,76,76,1)), color-stop(12%, rgba(89,89,89,1)), color-stop(20%, rgba(102,102,102,1)), color-stop(36%, rgba(44,44,44,1)), color-stop(45%, rgba(0,0,0,1)), color-stop(56%, rgba(36,32,36,1)), color-stop(63%, rgba(43,43,43,1)), color-stop(70%, rgba(71,71,71,1)), color-stop(81%, rgba(28,28,28,1)), color-stop(93%, rgba(28,28,28,1)));
+background: -webkit-linear-gradient(45deg, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 20%, rgba(44,44,44,1) 36%, rgba(0,0,0,1) 45%, rgba(36,32,36,1) 56%, rgba(43,43,43,1) 63%, rgba(71,71,71,1) 70%, rgba(28,28,28,1) 81%, rgba(28,28,28,1) 93%);
+background: -o-linear-gradient(45deg, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 20%, rgba(44,44,44,1) 36%, rgba(0,0,0,1) 45%, rgba(36,32,36,1) 56%, rgba(43,43,43,1) 63%, rgba(71,71,71,1) 70%, rgba(28,28,28,1) 81%, rgba(28,28,28,1) 93%);
+background: -ms-linear-gradient(45deg, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 20%, rgba(44,44,44,1) 36%, rgba(0,0,0,1) 45%, rgba(36,32,36,1) 56%, rgba(43,43,43,1) 63%, rgba(71,71,71,1) 70%, rgba(28,28,28,1) 81%, rgba(28,28,28,1) 93%);
+background: linear-gradient(45deg, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 20%, rgba(44,44,44,1) 36%, rgba(0,0,0,1) 45%, rgba(36,32,36,1) 56%, rgba(43,43,43,1) 63%, rgba(71,71,71,1) 70%, rgba(28,28,28,1) 81%, rgba(28,28,28,1) 93%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#1c1c1c', GradientType=1 );
+    /*background-color: #1D1E1F ! important;*/
+    color: white ! important; 
+   }
+   
+   .panel-body {
+       /*== Me salio de la ptm solo falta los contornos ==*/
+       background: rgba(76,76,76,1);
+background: -moz-linear-gradient(45deg, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 20%, rgba(44,44,44,1) 36%, rgba(0,0,0,1) 45%, rgba(36,32,36,1) 56%, rgba(43,43,43,1) 63%, rgba(71,71,71,1) 70%, rgba(28,28,28,1) 81%, rgba(28,28,28,1) 93%);
+background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(76,76,76,1)), color-stop(12%, rgba(89,89,89,1)), color-stop(20%, rgba(102,102,102,1)), color-stop(36%, rgba(44,44,44,1)), color-stop(45%, rgba(0,0,0,1)), color-stop(56%, rgba(36,32,36,1)), color-stop(63%, rgba(43,43,43,1)), color-stop(70%, rgba(71,71,71,1)), color-stop(81%, rgba(28,28,28,1)), color-stop(93%, rgba(28,28,28,1)));
+background: -webkit-linear-gradient(45deg, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 20%, rgba(44,44,44,1) 36%, rgba(0,0,0,1) 45%, rgba(36,32,36,1) 56%, rgba(43,43,43,1) 63%, rgba(71,71,71,1) 70%, rgba(28,28,28,1) 81%, rgba(28,28,28,1) 93%);
+background: -o-linear-gradient(45deg, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 20%, rgba(44,44,44,1) 36%, rgba(0,0,0,1) 45%, rgba(36,32,36,1) 56%, rgba(43,43,43,1) 63%, rgba(71,71,71,1) 70%, rgba(28,28,28,1) 81%, rgba(28,28,28,1) 93%);
+background: -ms-linear-gradient(45deg, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 20%, rgba(44,44,44,1) 36%, rgba(0,0,0,1) 45%, rgba(36,32,36,1) 56%, rgba(43,43,43,1) 63%, rgba(71,71,71,1) 70%, rgba(28,28,28,1) 81%, rgba(28,28,28,1) 93%);
+background: linear-gradient(45deg, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 20%, rgba(44,44,44,1) 36%, rgba(0,0,0,1) 45%, rgba(36,32,36,1) 56%, rgba(43,43,43,1) 63%, rgba(71,71,71,1) 70%, rgba(28,28,28,1) 81%, rgba(28,28,28,1) 93%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#1c1c1c', GradientType=1 );
+       /*background-color: #BFD4DB ! important;*/
+    color: #bce8f1! important; 
+   
+   }   
+   
+   .navbar {
+       /*background-color: #7F8385;*/
+       /*== El codigo de abajoes la degradacion que observas ==*/
+       background: rgba(76,76,76,1);
+background: -moz-linear-gradient(45deg, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 20%, rgba(44,44,44,1) 36%, rgba(0,0,0,1) 45%, rgba(36,32,36,1) 56%, rgba(43,43,43,1) 63%, rgba(71,71,71,1) 70%, rgba(28,28,28,1) 81%, rgba(28,28,28,1) 93%);
+background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(76,76,76,1)), color-stop(12%, rgba(89,89,89,1)), color-stop(20%, rgba(102,102,102,1)), color-stop(36%, rgba(44,44,44,1)), color-stop(45%, rgba(0,0,0,1)), color-stop(56%, rgba(36,32,36,1)), color-stop(63%, rgba(43,43,43,1)), color-stop(70%, rgba(71,71,71,1)), color-stop(81%, rgba(28,28,28,1)), color-stop(93%, rgba(28,28,28,1)));
+background: -webkit-linear-gradient(45deg, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 20%, rgba(44,44,44,1) 36%, rgba(0,0,0,1) 45%, rgba(36,32,36,1) 56%, rgba(43,43,43,1) 63%, rgba(71,71,71,1) 70%, rgba(28,28,28,1) 81%, rgba(28,28,28,1) 93%);
+background: -o-linear-gradient(45deg, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 20%, rgba(44,44,44,1) 36%, rgba(0,0,0,1) 45%, rgba(36,32,36,1) 56%, rgba(43,43,43,1) 63%, rgba(71,71,71,1) 70%, rgba(28,28,28,1) 81%, rgba(28,28,28,1) 93%);
+background: -ms-linear-gradient(45deg, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 20%, rgba(44,44,44,1) 36%, rgba(0,0,0,1) 45%, rgba(36,32,36,1) 56%, rgba(43,43,43,1) 63%, rgba(71,71,71,1) 70%, rgba(28,28,28,1) 81%, rgba(28,28,28,1) 93%);
+background: linear-gradient(45deg, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 20%, rgba(44,44,44,1) 36%, rgba(0,0,0,1) 45%, rgba(36,32,36,1) 56%, rgba(43,43,43,1) 63%, rgba(71,71,71,1) 70%, rgba(28,28,28,1) 81%, rgba(28,28,28,1) 93%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#1c1c1c', GradientType=1 );
+   }
+   
+   
+   .navbar-brand:link, .navbar-brand:visited {
+       color: deepskyblue !important;
+   }
+   
+   .navbar-brand:hover, .navbar-brand:active {
+       color: deepskyblue ! important;
+   }
+   
+   #navbar li a:link, #navbar li a:visited {
+       color: WHITE !important;
+   }
+   
+   #navbar li a:hover, #navbar li a:active {
+       color: deepskyblue ! important;
+   }
+   
+   #Jericho{
+       align: center;
+            /*== Falta colocar codigo para centrado de bloques ==*/
+       
+   }
+   
+   
+   /* La pseudo-clase :link se aplica a todos los enlaces que todavía no han sido visitados por el usuario.
+      La pseudo-clase :visited se aplica a todos los enlaces que han sido visitados al menos una vez por el usuario.*/
+   
+   /* :hover, se activa cuando el usuario pasa el ratón o cualquier otro elemento apuntador por encima de un elemento.
+      :active, se activa cuando el usuario activa un elemento, por ejemplo cuando pulsa con el ratón sobre un elemento. El estilo se aplica durante un espacio de tiempo prácticamente imperceptible, ya que sólo dura desde que el usuario pulsa el botón del ratón hasta que lo suelta.
+      :focus, se activa cuando el elemento tiene el foco del navegador, es decir, cuando el elemento está seleccionado. Normalmente se aplica a los elementos <input> de los formularios cuando están activados y por tanto, se puede escribir directamente en esos campos.*/
+
+
+   /* width  = anchura
+      height = altura 
+   */
+   
+   .banner{
+       width: 700px;
+       height: 300px;
+       border: 3px solid #00061a;
+       margin: auto;
+       
+       background-size: 100% 100%; 
+       animation: banner 40s infinite; 
+       animation-direction: alternate;
+       
+   }
+   .banner{
+       animation-direction: -moz- animation;
+       animation-direction: -webkit- animation;
+       animation-direction: -o- animation;
+       animation-direction: -ms-animation;
+   }
+   
+   @Keyframes banner{
+    0%, 5% {
+        background-image: url(../slider/naturaleza1.jpg);
+        opacity: 8;
+    }
+    6%, 9%{
+        opacity: 8;
+    }
+    
+    10%, 15%{
+        background-image: url(../slider/naturaleza2.jpg);
+        opacity: 10;
+    }
+    
+    16%, 19%{
+        opacity: 10;
+    }
+    20%, 25%{
+        background-image: url(../slider/naturaleza3.jpg);
+        opacity: 6;
+    }
+    26%, 29%{
+    opacity: 10;    
+    }
+    30%, 35%{
+        background-image: url(../slider/naturaleza4.jpg);
+        opacity: 6;
+    }
+    36%, 39%{
+        opacity: 10;
+        }
+    40%, 45%{
+        background-image: url(../slider/naturaleza5.jpg);
+        opacity: 6;
+    }
+    46%, 49%{
+        opacity: 10;
+    }
+    50%, 55%{
+        background-image: url(../slider/naturaleza6.jpg);
+        opacity: 6;
+    }
+    56%, 59%{
+        opacity: 10;
+    }
+    60%, 65%{
+        background-image: url(../slider/naturaleza7.jpg);
+        opacity: 6;
+    }
+    66%, 69%{
+        opacity: 10;
+    }
+    70%, 75%{
+        background-image: url(../slider/naturaleza8.jpg);
+        opacity: 6;
+    }
+    76%, 79%{
+        opacity: 10;
+    }
+    80%, 85%{
+        background-image: url(../slider/slider1.jpg);
+        opacity: 6;
+    }
+    86%, 89%{
+        opacity: 10;
+    }
+    90%, 100%{
+        background-image: url(../slider/slider3.jpg);
+        opacity: 10;
+    }
+}
+   
+  
+   

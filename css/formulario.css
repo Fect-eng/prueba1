@@ -1,0 +1,266 @@
+/*== Barra de navegacion ==*/
+.navbar {
+       background-color: #4A5052;
+    background:linear-gradient(top,#1a1a00,#f2f2f2);/*== Mientras mas hexadecimales en colores agreges mas degradacion habra se dividiran ==*/
+    background:-moz-linear-gradient(top,#1a1a00,#f2f2f2);
+    background:-o-linear-gradient(top,#1a1a00,#f2f2f2);
+    background:-ms-linear-gradient(top,#1a1a00,#f2f2f2);
+    background:-webkit-linear-gradient(top,#1a1a00,#f2f2f2);
+   }
+   
+.navbar-brand:link, .navbar-brand:visited {
+       color: #008000 !important;
+   }
+   
+   .navbar-brand:hover, .navbar-brand:active {
+       color: #008000 ! important;
+   }
+   
+   #navbar li a:link, #navbar li a:visited {
+       color: #ffff99 !important;
+   }
+   
+   #navbar li a:hover, #navbar li a:active {
+       color: #008000 ! important;
+   }
+   /*== Barra de navegacion ==*/
+   
+   
+/*== Banner ==*/
+
+.animado{
+       width: 700px;
+       height: 350px;
+       border: 3px solid #00061a;
+       margin: auto;
+       
+       background-size: 100% 100%; 
+       animation: banner 40s infinite; 
+       animation-direction: alternate;
+       
+   }
+   
+   .animado{
+       width: 700px;
+       height: 300px;
+       border: 3px solid #666666;
+       margin: auto;
+       
+       background-size: 100% 100%; 
+       animation: animado 60s infinite; 
+       animation-direction: alternate;
+       
+   }
+   .animado{
+       animation-direction: -moz- animation;
+       animation-direction: -webkit- animation;
+       animation-direction: -o- animation;
+       animation-direction: -ms-animation;
+   }
+   
+   @Keyframes animado{
+    0%, 5% {
+        background-image: url(../slider/naturaleza1.jpg);
+        opacity: 20;
+    }
+    6%, 9%{
+        opacity: 8;
+    }
+    
+    10%, 15%{
+        background-image: url(../slider/naturaleza2.jpg);
+        opacity: 20;
+    }
+    
+    16%, 19%{
+        opacity: 10;
+    }
+    20%, 25%{
+        background-image: url(../slider/naturaleza3.jpg);
+        opacity: 20;
+    }
+    26%, 29%{
+    opacity: 10;    
+    }
+    30%, 35%{
+        background-image: url(../slider/naturaleza4.jpg);
+        opacity: 20;
+    }
+    36%, 39%{
+        opacity: 10;
+        }
+    40%, 45%{
+        background-image: url(../slider/naturaleza5.jpg);
+        opacity: 20;
+    }
+    46%, 49%{
+        opacity: 10;
+    }
+    50%, 55%{
+        background-image: url(../slider/naturaleza6.jpg);
+        opacity: 20;
+    }
+    56%, 59%{
+        opacity: 10;
+    }
+    60%, 65%{
+        background-image: url(../slider/naturaleza7.jpg);
+        opacity: 20;
+    }
+    66%, 69%{
+        opacity: 10;
+    }
+    70%, 75%{
+        background-image: url(../slider/naturaleza8.jpg);
+        opacity: 20;
+    }
+    76%, 79%{
+        opacity: 10;
+    }
+    80%, 85%{
+        background-image: url(../slider/slider1.jpg);
+        opacity: 20;
+    }
+    86%, 89%{
+        opacity: 10;
+    }
+    90%, 100%{
+        background-image: url(../slider/slider3.jpg);
+        opacity: 20;
+    }
+}
+    
+            /*== aca empieza un slider ==*/
+            /*.slider{
+                width: 95%;
+                margin: auto;
+                overflow: hidden;
+            }
+            
+            .slider ul{
+                display: flex;
+                padding: 0;
+                width: 800%;
+                animation: cambio 20s infinite alternate;
+                animation-timing-function: ease-start;
+            }
+            
+            .slider li{
+                width: 100%;
+                list-style: none;
+                
+            }
+            
+            .slider img{
+                width: 100%;
+                height: -50% !important;
+            }
+            
+            
+            
+            @Keyframes cambio{
+                0%{margin-left: 0;}
+                20%{margin-left: 0;}
+                
+                30%{margin-left: -200%;}
+                45%{margin-left: -200%;}
+                
+                50%{maring-left: -300%;}
+                70%{margin-left: -300%;}
+                
+                75%{margin-left: -400%;}
+                100%{margin-left: -400%;}
+             
+            }*/
+           /*== Aca termina un slider el primero ==*/
+
+
+/*== Formulario inicio ==*/
+.contact_form h2{
+    background: none repeat scroll 0 0 #f3f3f3;
+    border-radius: 5px;
+    color: #5cd053;
+    display: block;
+    font-family: sans-serif;
+    padding: 15px;
+    text-shadow: 1px 1px 1px #cccccc;
+    width: 780px;/*alarga el comodin que hay alado de las letras*/
+    text-align: center;
+    background-color: yellowgreen;
+    
+}
+
+.contact_form ul{
+    width: 800px;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.contact_form li {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    position: relative;
+}
+
+.contact_form label {
+    color: #555555;
+    display: inline-block;
+    float: left;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 3px;
+    padding: 3px;
+    width: 90px;
+}
+
+.contact_form input{
+    height: 23px;
+    width: 400px;/*alarga el textarea donde se almacena el placeholder*/
+    padding: 5px 8px; 
+    background-color: yellowgreen;
+}
+
+.contact_form textarea{
+    padding: 12px; 
+    width: 400px;
+    background-color: yellowgreen;
+}
+
+.contact_form button{
+    margin-left: 90px;
+}
+
+/*== estilos visuales de los elementos ==*/
+
+.contact_form input, .contact_form textarea{
+    border: 2px solid #aaa;
+    box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+    border-radius: 2px;
+    color: #888;
+    font-size: 14px; 
+    padding-right: 40px;
+    -moz-transition: padding .25s;
+    -webkit-transition: padding .25s;
+    -o-transition: padding .25s;
+    transition: padding .25s;
+}
+
+.contact_form input:focus, .contact_form textarea:focus {
+  background: #fff;
+  border: 1px solid #555;
+  box-shadow: 0 0 3px #aaa; 
+  padding-right: 100px; 
+}
+
+/*== Fin de Formulario ==*/
+
+body{
+   background-color: #4A5052;
+    background:linear-gradient(top,#1a1a00,#f2f2f2);/*== Mientras mas hexadecimales en colores agreges mas degradacion habra se dividiran ==*/
+    background:-moz-linear-gradient(top,#1a1a00,#f2f2f2);
+    background:-o-linear-gradient(top,#1a1a00,#f2f2f2);
+    background:-ms-linear-gradient(top,#1a1a00,#f2f2f2);
+    background:-webkit-linear-gradient(top,#1a1a00,#f2f2f2);
+}
